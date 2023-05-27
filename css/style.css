@@ -92,6 +92,7 @@
     margin-left: 0%;
     color: rgb(0, 255, 153);
   }
+  /* all above is for nav  bar */
   /* all below is for @media  for nav guide */
   @media screen and (min-width:1200px){
     .nav_links li {
@@ -101,8 +102,9 @@
       list-style: none;
     }
   }
-/*media quiery for nav bar*/
-  @media screen and (max-width:890px){
+  
+
+  @media screen and (max-width:926px){
     .Sub-Menu{
       display: inline-block;
     }
@@ -117,8 +119,91 @@
   }
  
   }
+  /* all Above is for @mediascreen  for nav guide */
+/* all below is for body */
+.container {
+  display:flexbox;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 200px;
+  height: 150px;
+  margin-left: 38%;
+  margin-top: 30px;
+
+}
+.container-2 {
+  display:inline-block;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 200px;
+  height: 150px;
+  margin-left: 15%;
+  margin-top: 20px;
+  margin-right: 70px;
+
+
+}
+
+.container-4 {
+  display:flexbox;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 200px;
+  height: 150px;
+  margin-left: 38%;
+  margin-top: 20px;
+
+}
+
+ /* below is media queries for body*/
+ /*phone except surface duo*/
+ @media screen and (max-width:415px){
+  .container{
+    margin-left: 25%;
+    margin-top: 5%;
+   height: 125px;
+     }
+     .container-4{
+      margin-left: 25%;
+      height: 125px;
+
+     }
+    .container-2 {
+      margin-left: 25%;
+      height: 125px;
+
+     }
+
+  /*surface duo*/
+   }
+   @media screen and (max-width:550px){
+    .container{
+      margin-left: 31%;
+      margin-top: 5%;
+     height: 145px;
+       }
+       .container-4{
+        margin-left: 31%;
+        height: 145px;
   
-/* all below is for aside bar*/
+       }
+      .container-2 {
+        margin-left: 31%;
+        height: 145px;
+  
+       }
+  
+    
+     }
+    
+  
+
+
+
+
+  
+  
+
   
   
   
@@ -151,6 +236,7 @@
     body {
       background-image: url(../images/hardwood-grey2.jpg);
       background-size: cover;
+      height: 900px;
       
       
      
